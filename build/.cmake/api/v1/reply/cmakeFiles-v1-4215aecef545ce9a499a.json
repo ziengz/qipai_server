@@ -1,0 +1,716 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/Boost-1.88.0/BoostConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/Boost-1.88.0/BoostConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/boost_log-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/boost_log-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/libboost_log-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/libboost_log-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/libboost_log-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/libboost_log-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/libboost_atomic-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/libboost_atomic-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/libboost_atomic-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/libboost_atomic-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/libboost_chrono-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/libboost_chrono-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/libboost_chrono-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/libboost_chrono-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/libboost_system-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/libboost_system-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/libboost_system-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/libboost_system-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/libboost_filesystem-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/libboost_filesystem-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/libboost_filesystem-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/libboost_filesystem-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/boost_thread-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/boost_thread-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/libboost_thread-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/libboost_thread-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/libboost_thread-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/libboost_thread-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/boost_log_setup-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/boost_log_setup-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/BoostDetectToolset-1.88.0.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/libboost_log_setup-variant-mgw14-mt-d-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/libboost_log_setup-variant-mgw14-mt-d-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/libboost_log_setup-variant-mgw14-mt-x32-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log_setup-1.88.0/libboost_log_setup-variant-mgw14-mt-x64-1_88-static.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_atomic-1.88.0/boost_atomic-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_chrono-1.88.0/boost_chrono-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/boost_log-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_log-1.88.0/boost_log-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/boost_thread-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_thread-1.88.0/boost_thread-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_headers-1.88.0/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_filesystem-1.88.0/boost_filesystem-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/boost_for_mingw/lib/cmake/boost_system-1.88.0/boost_system-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mysql-connector-full/mysql-concpp-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mysql-connector-full/mysql-concpp-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/rabbitmq-c/install/lib/cmake/rabbitmq-c/rabbitmq-c-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/rabbitmq-c/install/lib/cmake/rabbitmq-c/rabbitmq-c-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "E:/cppsoft/mingw64/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/rabbitmq-c/install/lib/cmake/rabbitmq-c/rabbitmq-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/cppsoft/rabbitmq-c/install/lib/cmake/rabbitmq-c/rabbitmq-targets-release.cmake"
+		},
+		{
+			"path" : "3rdpart/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdpart/hiredis/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdpart/jsoncpp/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdpart/zlib-1.2.11/CMakeLists.txt"
+		},
+		{
+			"path" : "Framework/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/qipai_server/build",
+		"source" : "E:/qipai_server"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

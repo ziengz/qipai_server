@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "3rdpart/zlib-1.2.11",
+		"source" : "3rdpart/zlib-1.2.11"
+	}
+}
