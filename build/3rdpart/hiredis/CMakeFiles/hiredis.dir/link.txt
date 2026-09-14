@@ -1,2 +1,0 @@
-E:\cppsoft\mingw64\bin\ar.exe qc libhiredis.a CMakeFiles/hiredis.dir/source/alloc.c.obj CMakeFiles/hiredis.dir/source/async.c.obj CMakeFiles/hiredis.dir/source/dict.c.obj CMakeFiles/hiredis.dir/source/hiredis.c.obj CMakeFiles/hiredis.dir/source/net.c.obj CMakeFiles/hiredis.dir/source/read.c.obj CMakeFiles/hiredis.dir/source/sds.c.obj CMakeFiles/hiredis.dir/source/sockcompat.c.obj CMakeFiles/hiredis.dir/source/ssl.c.obj
-E:\cppsoft\mingw64\bin\ranlib.exe libhiredis.a

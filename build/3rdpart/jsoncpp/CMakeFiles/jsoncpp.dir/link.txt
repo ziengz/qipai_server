@@ -1,2 +1,0 @@
-E:\cppsoft\mingw64\bin\ar.exe qc libjsoncpp.a CMakeFiles/jsoncpp.dir/source/json_reader.cpp.obj CMakeFiles/jsoncpp.dir/source/json_value.cpp.obj CMakeFiles/jsoncpp.dir/source/json_writer.cpp.obj
-E:\cppsoft\mingw64\bin\ranlib.exe libjsoncpp.a

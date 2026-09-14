@@ -1,0 +1,18 @@
+build/
+.cache/
+.clangd
+
+# VS 相关
+.vs/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.vcxproj.user
+*.sln.docstates
+
+.vscode/

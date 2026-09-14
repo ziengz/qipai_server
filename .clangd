@@ -1,9 +1,0 @@
-CompileFlags:
-  CompilationDatabase: build
-  Add:
-    - "-DWIN32_LEAN_AND_MEAN"
-    - "-DNOMINMAX"
-    - -I
-    - E:/cppsoft/boost_for_mingw/include
-    - -I
-    - E:/cppsoft/boost_for_mingw/include/boost-1_88/boost
