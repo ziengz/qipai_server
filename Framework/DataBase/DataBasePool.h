@@ -1,29 +1,31 @@
-#include "Thread/ThreadBlocker.h"
 #include "DataBaseConnection.h"
+#include "Thread/ThreadBlocker.h"
+
 
 #include <atomic>
 #include <list>
 #include <queue>
 
-class DataBasePool{
-private:
-    //保留的连接数量
+class DataBasePool {
+  private:
+    // 保留的连接数量
     const int _keepConnections;
-    //最大连接数
+    // 最大连接数
     const int _maxConnections;
 
-    //mysql链接列表
+    // mysql链接列表
     std::list<DataBaseConnection::Ptr> _connections;
-    //阻塞队列
+    // 阻塞队列
     std::queue<ThreadBlocker::Ptr> _blockQueue;
-    
+
     std::mutex _mtx;
-protected:
-    //停止标志
+
+  protected:
+    // 停止标志
     std::atomic_bool _stopFlag;
 
-public:
-    DataBasePool(int keepConnections,int maxConnections);
+  public:
+    DataBasePool(int keepConnections, int maxConnections);
     virtual ~DataBasePool() = default;
 
     /**
@@ -32,10 +34,10 @@ public:
      */
     bool onTimer();
 
-    //设置停止标志
+    // 设置停止标志
     void stop();
 
-protected:
+  protected:
     /**
      * 请求数据库连接（当连接超出最大数量时阻塞调用线程）
      * @return 数据库连接
@@ -44,7 +46,7 @@ protected:
 
     DataBaseConnection::Ptr onTimerImpl();
 
-    virtual void onTimerImpl(DataBaseConnection::Ptr& con) = 0; 
+    virtual void onTimerImpl(const DataBaseConnection::Ptr &con) = 0;
 
     /**
      * 创建数据库连接实例
@@ -52,25 +54,25 @@ protected:
      */
     virtual DataBaseConnection::Ptr createConnection() = 0;
 
-    /** 
+    /**
      * 删除数据库连接
      * @param con 数据库连接
      */
-    void removeConnection(const DataBaseConnection::Ptr& con);
+    void removeConnection(const DataBaseConnection::Ptr &con);
 
     /**
      * 唤醒则色队列中的第一个线程
      */
     void notifyOne();
 
-    //清空链接
+    // 清空链接
     void clearConnection();
 
-private:
+  private:
     /**
      * 请求数据库连接
      * @param blocker 连接数量超出最大限制时，返回阻塞器，用于阻塞当前调用线程
      * @return 数据库连接
-    */
-    DataBaseConnection::Ptr getConnection(ThreadBlocker::Ptr& blocker);
+     */
+    DataBaseConnection::Ptr getConnection(ThreadBlocker::Ptr &blocker);
 };
