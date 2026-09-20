@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <time.h>
+#include <vector>
 
 class BaseUtils {
   private:
@@ -29,6 +30,18 @@ class BaseUtils {
 
     // 从文件路径中获取文件名
     static void filename(const std::string path, std::string &file);
+
+    template <typename T>
+    static bool contain(const std::vector<T> &arr, const T &val) {
+        typename std::vector<T>::const_iterator it = arr.begin();
+        while (it != arr.end()) {
+            if (*it == val)
+                return true;
+            ++it;
+        }
+        return false;
+    }
+
     /**
      * 获取当前时间，单位毫秒
      * 从1970-01-01 00:00:00 UTC到现在的毫秒数
