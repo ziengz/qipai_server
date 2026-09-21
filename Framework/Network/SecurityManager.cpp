@@ -20,18 +20,18 @@
 #include <vector>
 
 class AbnormalRecord {
-  private:
+private:
     // 记录异常行为的时间戳列表
     std::list<time_t> _timestmaps;
 
     // 信号量
     std::mutex _mtx;
 
-  public:
+public:
     AbnormalRecord() {}
     virtual ~AbnormalRecord() {}
 
-  public:
+public:
     /**
      * @brief 记录一次异常行为（3秒内20次异常）
      *
@@ -90,13 +90,13 @@ void SecurityManager::init(const std::string &fanoutExchange,
     }
 
     class BlacklistHandler : public RabbitmqMesaageJsonHandler {
-      public:
+    public:
         BlacklistHandler(const std::string &tag)
             : RabbitmqMesaageJsonHandler(tag) {};
 
         virtual ~BlacklistHandler() {}
 
-      protected:
+    protected:
         virtual bool receive(const std::string &message) override {
             std::string::size_type pos = message.find("MsgIpBlacklist");
             return (pos != std::string::npos);
