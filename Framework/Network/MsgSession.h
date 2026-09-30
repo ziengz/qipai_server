@@ -27,10 +27,8 @@ public:
     public:
         Creator(int heartbeatValid = -1) : _heartbeatValid(heartbeatValid) {}
 
-        virtual Session::Ptr
-        create(const std::shared_ptr<Connection> &con) const override {
-            Session::Ptr sess =
-                std::make_shared<MsgSession>(con, _heartbeatValid);
+        virtual Session::Ptr create(const std::shared_ptr<Connection> &con) const override {
+            Session::Ptr sess = std::make_shared<MsgSession>(con, _heartbeatValid);
             return sess;
         }
 

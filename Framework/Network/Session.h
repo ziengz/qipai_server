@@ -32,7 +32,7 @@ public:
     const std::string& getRemoteIp() const;
     
     /**
-     * @brief 绘画是否有效
+     * @brief 会话是否有效
      * 
      * @return true 有效
      * @return false 无效
