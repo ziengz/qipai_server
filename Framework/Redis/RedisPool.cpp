@@ -27,7 +27,7 @@ static bool isOk(redisReply *reply) {
 }
 
 class RedisConnection : public DataBaseConnection {
-  public:
+public:
     RedisConnection(redisContext *ctx) : _ctx(ctx) {}
 
     virtual ~RedisConnection() {
@@ -37,17 +37,17 @@ class RedisConnection : public DataBaseConnection {
         }
     }
 
-  public:
+public:
     // 获取redis连接
     redisContext *getContext() const { return _ctx; }
 
-  private:
+private:
     // redis连接
     redisContext *_ctx;
 };
 
 class RedisPoolImpl : public DataBasePool {
-  public:
+public:
     RedisPoolImpl(const std::string &host, int port,
                   const std::string &password, int database,
                   int keepConnections, int maxConnections)
@@ -58,10 +58,10 @@ class RedisPoolImpl : public DataBasePool {
 
     typedef std::shared_ptr<RedisPoolImpl> Ptr;
 
-  public:
+public:
     void clear() { clearConnection(); }
 
-  public:
+public:
     bool get(const std::string &key, std::string &value) {
         std::shared_ptr<RedisConnection> con = getConnectionEx();
         if (!con)
@@ -715,7 +715,7 @@ class RedisPoolImpl : public DataBasePool {
         return ret;
     }
 
-  protected:
+protected:
     virtual DataBaseConnection::Ptr createConnection() override {
         DataBaseConnection::Ptr con;
         struct timeval timeout = {3, 0}; // 3 seconds
@@ -764,6 +764,7 @@ class RedisPoolImpl : public DataBasePool {
     }
 
     virtual void onTimerImpl(const DataBaseConnection::Ptr &conIn) override {
+        // 基类到派生类转换
         std::shared_ptr<RedisConnection> con =
             std::dynamic_pointer_cast<RedisConnection>(conIn);
         if (!con)
@@ -780,7 +781,7 @@ class RedisPoolImpl : public DataBasePool {
         checkConnection(con, flag);
     }
 
-  private:
+private:
     std::shared_ptr<RedisConnection> getConnectionEx() {
         DataBaseConnection::Ptr tmp = getConnection();
         if (!tmp)
@@ -819,7 +820,7 @@ class RedisPoolImpl : public DataBasePool {
         return ret;
     }
 
-  private:
+private:
     // 服务器主机地址
     const std::string _host;
 

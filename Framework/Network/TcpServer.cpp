@@ -10,7 +10,6 @@
 #include "boost/asio/executor_work_guard.hpp"
 #include "system/detail/error_code.hpp"
 #include "uuid/random_generator.hpp"
-#include "winapi/error_codes.hpp"
 #include <boost/asio.hpp>
 #include <boost/asio/require.hpp>
 #include <boost/uuid/uuid.hpp>
